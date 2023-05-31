@@ -10,13 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d962411a6f.js" crossorigin="anonymous"></script>    
 
 </head>
 <body>
     <section class="header">
         <nav>
-        <i class="fa-solid fa-xmark"></i>
         <div class="nav-links">
             <ul>
                 <li><a href="">Sobre</a></li>
@@ -27,11 +26,40 @@
                 <li><a href="">Noticias</a></li>
             </ul>
         </div>
-        <i class="fa-solid fa-bars"></i>
         </nav>
         <div class="caixa-de-texto"><h1>Clube de <br> Ciências</h1>
         <a href="" class="primeiro-botao">Conheça já</a>
     </div>
     </section>
+
+    <section class="pagina2">
+        
+        <div class="vantagens">
+            <h1>Frase de <br> teste para <br> alcançe</h1>
+            <p>Saiba mais em:</p>
+            <a href="" class="botao-vantagens">Vantagens</a>
+        </div>
+        <img  class="imagem" src="image.png" alt="">
+            
+        
+    </section>
+
+
+
+
+
+    <!-- JavaScript do menu hamburger -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
 </body>
 </html>
