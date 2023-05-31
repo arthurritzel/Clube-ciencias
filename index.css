@@ -55,7 +55,6 @@ nav{
 }
 .caixa-de-texto{
     width: 90%;
-    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -66,6 +65,7 @@ nav{
 .caixa-de-texto h1{
     font-family: 'Inter', sans-serif;
     font-size: 60px;
+    color: #fff;
 
 }
 
@@ -76,9 +76,13 @@ nav{
     font-family: 'Inter', sans-serif;
     padding: 12px 34px;
     font-size: 20px;
-    background: transparent;
     position: relative;
+    background-color: orangered;
+    border-radius: 50px;
     cursor: pointer;
 
-
+}
+.primeiro-botao:hover{
+    box-shadow: 2px 2px #ffffff81;
+    transition: .5s;
 }
