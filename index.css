@@ -102,6 +102,10 @@ nav{
     font-family: 'Inter', sans-serif;
 }
 
+.row{
+    display: block;
+}
+
 h1{
     font-size: 50px;
     color: #fff;
@@ -114,7 +118,13 @@ p{
 .vantagens{
     display: block;
     padding: 20px;
+    border: solid 2px #fff;
+    width: 40%;
 
+}
+.titulo2{
+    border: solid 2px #fff;
+    width: 40%;
 }
 .botao-vantagens{
     display: inline-block;
@@ -132,4 +142,10 @@ p{
 .botao-vantagens:hover{
     box-shadow: 2px 2px #ffffff81;
     transition: .5s;
+}
+.imagem{
+    border: solid 2px #fff;
+    width: 500px;
+    justify-content: right;
+
 }
