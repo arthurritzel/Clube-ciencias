@@ -97,15 +97,12 @@ nav{
 .pagina2{
     width: 80%;
     margin: auto;
-    text-align: left;
+    text-align: center;
     padding-top: 100px;
     font-family: 'Inter', sans-serif;
     display: flex;
 
 }
-
-
-
 h1{
     font-size: 50px;
     color: #fff;
@@ -118,6 +115,7 @@ p{
 .vantagens{
     border: solid 2px #fff;
     width: 40%;
+    align-items: center;
 }
 
 .botao-vantagens{
@@ -141,5 +139,7 @@ p{
     border: solid 2px #fff;
     width: 500px;
     justify-content: right;
+    background-color: orangered;
+    border-radius: 80px;
 
 }
