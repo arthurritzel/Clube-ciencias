@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: linear-gradient(black, blue);
+    background-image: linear-gradient(black, rgb(0, 0, 255), aqua);
 
 
 }
@@ -53,6 +53,11 @@ nav{
     width: 100%;
     
 }
+
+.fa-solid{
+    display: none;
+
+}
 .caixa-de-texto{
     width: 90%;
     position: absolute;
@@ -85,4 +90,56 @@ nav{
 .primeiro-botao:hover{
     box-shadow: 2px 2px #ffffff81;
     transition: .5s;
+}
+
+/*---Segunda Pagina---*/
+
+.pagina2{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+
+}
+
+
+
+h1{
+    font-size: 50px;
+    color: #fff;
+}
+p{
+    font-size: 15px;
+    color: #fff;
+
+}
+.vantagens{
+    border: solid 2px #fff;
+    width: 40%;
+}
+
+.botao-vantagens{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 12px 34px;
+    font-size: 20px;
+    position: relative;
+    background-color: orangered;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.botao-vantagens:hover{
+    box-shadow: 2px 2px #ffffff81;
+    transition: .5s;
+}
+.imagem{
+    border: solid 2px #fff;
+    width: 500px;
+    justify-content: right;
+
 }
