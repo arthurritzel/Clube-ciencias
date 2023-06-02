@@ -1,6 +1,12 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    
 }
 
 body{
@@ -94,32 +100,42 @@ nav{
 
 /*---Segunda Pagina---*/
 
-.pagina2{
-    width: 80%;
-    margin: auto;
+#pagina2{
+    width: 100%;
     text-align: left;
     padding-top: 100px;
     font-family: 'Inter', sans-serif;
     display: flex;
-
+    justify-content: center;
 }
-
-
 
 h1{
-    font-size: 50px;
+    font-size: 80px;
     color: #fff;
 }
+
 p{
     font-size: 15px;
     color: #fff;
-
 }
+
 .vantagens{
-    border: solid 2px #fff;
+    /* border: solid 2px #fff; */
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
+.vantagens > div{
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+}
+.vantagens > div > p{
+    padding: 15px;
+}
 .botao-vantagens{
     display: inline-block;
     text-decoration: none;
@@ -140,6 +156,7 @@ p{
 .imagem{
     border: solid 2px #fff;
     width: 500px;
-    justify-content: right;
-
+    justify-content: center;
+    background-color: orangered;
+    border-radius: 30px;
 }
