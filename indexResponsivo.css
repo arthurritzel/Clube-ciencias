@@ -6,7 +6,7 @@
       right: 0;
       width: 50vw;
       height: 92vh;
-      background: #0c0c70;
+      background: #0c0c704f;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
@@ -30,7 +30,7 @@
       font-size: 12px;
     }
     .vantagens > div{
-margin-left: 10PX;
+      margin-left: 10PX;
     }
     .botao-vantagens{
       display: inline-block;
@@ -81,7 +81,7 @@ margin-left: 10PX;
   }
 
 
-  /* pagina2 */
+ 
 
   
 
