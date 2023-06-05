@@ -1,10 +1,14 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
 }
 
+
+
 body{
-    background-image: linear-gradient(black, blue);
+    background-image: linear-gradient(black, rgb(0, 0, 255), aqua);
 
 
 }
@@ -21,7 +25,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-
+    width: 100%;
 }
 .nav-links{
     flex: 1;
@@ -43,7 +47,7 @@ nav{
     content: '';
     width: 0%;
     height: 2px;
-    background: orangered;
+    background: #FC6335;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -82,7 +86,7 @@ nav{
     padding: 12px 34px;
     font-size: 20px;
     position: relative;
-    background-color: orangered;
+    background-color: #FC6335;
     border-radius: 50px;
     cursor: pointer;
 
@@ -94,32 +98,42 @@ nav{
 
 /*---Segunda Pagina---*/
 
-.pagina2{
-    width: 80%;
-    margin: auto;
+#pagina2{
+    width: 100%;
     text-align: left;
     padding-top: 100px;
     font-family: 'Inter', sans-serif;
     display: flex;
-
+    justify-content: center;
 }
-
-
 
 h1{
-    font-size: 50px;
+    font-size: 80px;
     color: #fff;
 }
+
 p{
     font-size: 15px;
     color: #fff;
-
 }
+
 .vantagens{
-    border: solid 2px #fff;
+    /* border: solid 2px #fff; */
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
+.vantagens > div{
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+}
+.vantagens > div > p{
+    padding: 15px;
+}
 .botao-vantagens{
     display: inline-block;
     text-decoration: none;
@@ -128,7 +142,7 @@ p{
     padding: 12px 34px;
     font-size: 20px;
     position: relative;
-    background-color: orangered;
+    background-color: #FC6335;
     border-radius: 50px;
     cursor: pointer;
 
@@ -140,6 +154,7 @@ p{
 .imagem{
     border: solid 2px #fff;
     width: 500px;
-    justify-content: right;
-
+    justify-content: center;
+    background-color: #FC6335;
+    border-radius: 30px;
 }

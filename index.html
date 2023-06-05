@@ -16,38 +16,37 @@
 <body>
     <section class="header">
         <nav>
-        <div class="nav-links" id="navLinks">
-            <i class="fa-solid fa-xmark" style="color: #ffffff;" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Laboratorios</a></li>
-                <li><a href="">Vantagens</a></li>
-                <li><a href="">Equipe</a></li>
-                <li><a href="">Premios</a></li>
-                <li><a href="">Noticias</a></li>
-            </ul>
-        </div>
-        <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="showMenu()"></i>
+          <div class="nav-links" id="smooth">
+              <ul>
+                  <li><a href="#pagina2">Sobre</a></li>
+                  <li><a href="">Laboratorios</a></li>
+                  <li><a href="">Vantagens</a></li>
+                  <li><a href="">Equipe</a></li>
+                  <li><a href="">Premios</a></li>
+                  <li><a href="noticias.html">Noticias</a></li>
+              </ul>
+          </div>
         </nav>
-        <div class="caixa-de-texto"><h1>Clube de <br> Ciências</h1>
-        <a href="" class="primeiro-botao">Conheça já</a>
-    </div>
+        <div class="caixa-de-texto" id="smooth">
+            <h1>Clube de <br> Ciências</h1>
+            <a href="#pagina2" class="primeiro-botao">Conheça já</a>
+        </div>
     </section>
 
-    <section class="pagina2">
+    <section id="pagina2">
         
-        <div class="vantagens">
+        <div class="vantagens" id="smooth">
             <h1>Frase de <br> teste para <br> alcançe</h1>
-            <p>Saiba mais em:</p>
-            <a href="" class="botao-vantagens">Vantagens</a>
+            <div>
+                <p>Saiba <br> mais em:</p>
+                <a href="" class="botao-vantagens">Vantagens</a>
+            </div>
         </div>
-
+        
+        <img class="imagem" src="img/image.png" alt="">
        
-            <img  class="imagem" src="image.png" alt="">
+      
             
-        
-            
-        
         
     </section>
 
@@ -66,6 +65,50 @@
             navLinks.style.right = "-200px"
         }
 
+
+        const menuLinks = document.querySelectorAll('#smooth a[href^="#"]');
+
+function getDistanceFromTheTop(element) {
+  const id = element.getAttribute("href");
+  return document.querySelector(id).offsetTop;
+}
+
+
+function scrollToSection(event) {
+  event.preventDefault();
+  const distanceFromTheTop = getDistanceFromTheTop(event.target) - 90;
+  smoothScrollTo(0, distanceFromTheTop);
+}
+
+menuLinks.forEach((link) => {
+  link.addEventListener("click", scrollToSection);
+});
+
+function smoothScrollTo(endX, endY, duration) {
+  const startX = window.scrollX || window.pageXOffset;
+  const startY = window.scrollY || window.pageYOffset;
+  const distanceX = endX - startX;
+  const distanceY = endY - startY;
+  const startTime = new Date().getTime();
+
+  duration = typeof duration !== "undefined" ? duration : 1000;
+
+  const easeInOutQuart = (time, from, distance, duration) => {
+    if ((time /= duration / 2) < 1)
+      return (distance / 2) * time * time * time * time + from;
+    return (-distance / 2) * ((time -= 2) * time * time * time - 2) + from;
+  };
+
+  const timer = setInterval(() => {
+    const time = new Date().getTime() - startTime;
+    const newX = easeInOutQuart(time, startX, distanceX, duration);
+    const newY = easeInOutQuart(time, startY, distanceY, duration);
+    if (time >= duration) {
+      clearInterval(timer);
+    }
+    window.scroll(newX, newY);
+  }, 1000 / 60);
+}
     </script>
 
 </body>
