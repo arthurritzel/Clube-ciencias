@@ -89,7 +89,9 @@ nav {
     margin: 8px;
     transition: 0.3s;
   }
-  
+  .foguete{
+    width: 100px;
+  }
 .caixa-de-texto{
     width: 90%;
     position: absolute;
