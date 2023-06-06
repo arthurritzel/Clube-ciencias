@@ -4,7 +4,9 @@
     border: 0px;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: auto !important;
+}
 
 
 body{
@@ -17,7 +19,6 @@ body{
     background-color: #FC6335;
     width: 85%;
     border-radius: 0px 15px 15px 0px;
-    display: flex;
     margin-top: 30px;
 }
 .divisoria-laranja p{
