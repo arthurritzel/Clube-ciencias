@@ -35,7 +35,8 @@ body{
 }
 
 nav {
-    position: fixed;
+    position: sticky;
+    top: 0px;
     width: 100%;
     display: flex;
     justify-content: right;
@@ -90,7 +91,8 @@ nav {
     transition: 0.3s;
   }
   .foguete{
-    width: 100px;
+    width: 100%;
+    height: 120vh;
   }
 .caixa-de-texto{
     width: 90%;
@@ -132,7 +134,7 @@ nav {
     width: 100%;
     
     text-align: left;
-    padding-top: 100px;
+    padding-top: 50px;
     font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;

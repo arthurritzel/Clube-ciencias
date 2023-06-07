@@ -16,35 +16,36 @@
 </head>
 <body>
     <section class="header">
-      <nav>
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-        <ul class="nav-list" id="smooth">
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#">Laboratórios</a></li>
-          <li><a href="#">Vantagens</a></li>
-          <li><a href="#">Equipe</a></li>
-          <li><a href="#">Premios</a></li>
-          <li><a href="noticias.html">Noticias</a></li>
-        </ul>
-      </nav>
-      <img src="img/fguetee.png" class="foguete">
+      <img src="img/Galax.png" class="foguete">
         <div class="caixa-de-texto" id="smooth">
             <h1>Clube de <br> Ciências</h1>
-            <a href="#pagina2" class="primeiro-botao">Conheça já</a>
+            <a href="#pagina2a" class="primeiro-botao">Conheça já</a>
         </div>
-    </section>
-
-    <section id="pagina2">
         
-        <div class="vantagens" id="smooth">
+    </section>
+    <nav>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list" id="smooth">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#laboratorios">Laboratórios</a></li>
+        <li><a href="#vantagens">Vantagens</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="premios.html">Premios</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+      </ul>
+    </nav>
+    <section id="pagina2">
+      <a id="pagina2a"></a>
+        <div class="vantagens">
+          
             <h2>Frase de <br> teste para <br> alcançe</h2>
-            <div>
+            <div  id="smooth">
                 <p>Saiba <br> mais em:</p>
-                <a href="" class="botao-vantagens">Vantagens</a>
+                <a href="#vantagens" class="botao-vantagens">Vantagens</a>
             </div>
         </div>
         
@@ -57,8 +58,25 @@
         <p>O que é o clube</p>
     </div>
     </section>
-
-
+    <section id="laboratorios">
+      <div class="divisoria-laranja" class="row align-items-center">
+        <p>Laboratorios</p>
+    </div>
+    </section>
+    <section id="vantagens">
+      <div class="divisoria-laranja" class="row align-items-center">
+        <p>Vantagens</p>
+    </div>
+    </section>
+    <section id="comosurgiu">
+      <div class="divisoria-laranja" class="row align-items-center">
+        <p>Como surgiu?</p>
+    </div>
+    <section id="equipe">
+      <div class="divisoria-laranja" class="row align-items-center">
+        <p>Equipe</p>
+    </div>
+    </section>
     <script>
      
       const menuLinks = document.querySelectorAll('#smooth a[href^="#"]');
@@ -102,7 +120,7 @@
             clearInterval(timer);
           }
           window.scroll(newX, newY);
-        }, 1000 / 60);
+        }, 1000 / 70);
       }
     </script>
 
