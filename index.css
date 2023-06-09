@@ -101,7 +101,7 @@ nav {
 }
 .caixa-de-texto h1{
     font-family: 'Inter', sans-serif;
-    font-size: 60px;
+    font-size: 90px;
     color: #fff;
 
 }
@@ -191,6 +191,34 @@ p{
 }
 
 #sobre{
+    margin-top: 100px;
+    height: 100vh;
+}
+.conteudo-sobre{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+.conteudo-sobre p{
+    width: 50%;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.conteudo-sobre img{
+    display: flex;
+    width: 65vh;
+    height: 75vh;
+    padding-right: 110px;
+    padding-top: 20px;
+   
+    
+}
+
+#laboratorios{
     margin-top: 100px;
     height: 100vh;
 }

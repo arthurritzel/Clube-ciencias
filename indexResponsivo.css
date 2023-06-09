@@ -50,6 +50,27 @@
       width: 40%;
       height: 30vh;
     }
+
+    /* Página Sobre */
+    .conteudo-sobre{
+      display: table;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+  }
+    .conteudo-sobre p{
+      width: 100%;
+      font-size: 20px;
+      padding: 5%;
+  }
+  .conteudo-sobre img{
+    display: flex;
+    width: 50vh;
+    height: 50vh;
+    padding-left: 5%;
+  }
+    
   }
 
   .nav-list.active {
