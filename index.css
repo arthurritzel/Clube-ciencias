@@ -23,7 +23,7 @@ body{
 }
 .divisoria-laranja p{
     margin-left: 30px;
-    font-size: 32px;
+    font-size: 42px;
     font-family: inter, bold;
 }
 
@@ -197,4 +197,63 @@ p{
 #sobre{
     margin-top: 100px;
     height: 100vh;
+}
+
+/*LABORATORIOS */
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #103973;
+    align-items: center;
+    margin: 10px;
+}
+.card-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #103973;
+    align-items: center;
+    margin: 10px;
+}
+
+.txt{
+    margin: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.lab{
+    font-size: 40px;
+    text-align: center;
+    background-color: #FC6335;
+    border-radius: 20px;
+    padding: 0px 10px 0px 10px;
+    width: fit-content;
+    font-family: inter, bold;
+}
+
+.desc-lab{
+    font-size: 18px;
+}
+
+.card-img{
+    width: 70%;
+    height: 300px;
+    border: white solid 1px;
 }
