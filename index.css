@@ -257,3 +257,52 @@ p{
     height: 300px;
     border: white solid 1px;
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    height: 1200px;
+    background-image: url(./img/FOOTER.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+}
+
+form{
+    width: fit-content;
+    border: #fff 1px solid;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contato{
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: #103973;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.frequentes{
+    width: 300px;
+    height: 500px;
+    margin-right: 50px;
+    border-radius: 30px;
+    background-color: #103973;
+    display: flex;
+}
+
+
+
+.campo-form{
+    width: 250px;
+    height: 35px;
+    margin-top: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
