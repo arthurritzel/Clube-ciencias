@@ -10,7 +10,7 @@ html{
 
 
 body{
-    background-image: linear-gradient(black, rgb(0, 0, 255), aqua);
+    background-image: linear-gradient(#000000, #033780, #467DEB);
 
 
 }
@@ -196,7 +196,23 @@ p{
 
 #sobre{
     margin-top: 100px;
-    height: 100vh;
+    height: auto;
+}
+
+.sobre-conteudo{
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: right;
+}
+.sobre-conteudo > p{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-right: 20%;
+    width: 40%;
+    text-align: justify;
+}
+.img-cont{
+    transform: scaleX(-1);
 }
 
 /*LABORATORIOS */
@@ -256,4 +272,25 @@ p{
     width: 70%;
     height: 300px;
     border: white solid 1px;
+}
+
+/* como surgiu */
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.comosurgiu-txt{
+    width: 600px;
+    font-size: 35px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.comosurgiu-img{
+    width: 500px;
+    border: white solid 1px;
+    height: 600px;
 }
