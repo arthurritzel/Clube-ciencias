@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clube de Ciências</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/fguetee.png" type="image/x-icon">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="indexResponsivo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,51 +17,193 @@
 </head>
 <body>  
     <section class="header">
-        <nav>
-        <div class="nav-links">
-            <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Laboratorios</a></li>
-                <li><a href="">Vantagens</a></li>
-                <li><a href="">Equipe</a></li>
-                <li><a href="">Premios</a></li>
-                <li><a href="">Noticias</a></li>
-            </ul>
+      <img src="img/Galax.png" class="foguete">
+        <div class="caixa-de-texto" id="smooth">
+            <h1>Clube de <br> Ciências</h1>
+            <a href="#pagina2a" class="primeiro-botao">Conheça já</a>
         </div>
-        </nav>
-        <div class="caixa-de-texto"><h1>Clube de <br> Ciências</h1>
-        <a href="" class="primeiro-botao">Conheça já</a>
+        
+    </section>
+    <nav>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list" id="smooth">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#laboratorios">Laboratórios</a></li>
+        <li><a href="#vantagens">Vantagens</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="premios.html">Premios</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+      </ul>
+    </nav>
+    <section id="pagina2">
+      <a id="pagina2a"></a>
+        <div class="vantagens">
+          
+            <h2>Frase de <br> teste para <br> alcançe</h2>
+            <div  id="smooth">
+                <p>Saiba <br> mais em:</p>
+                <a href="#vantagens" class="botao-vantagens">Vantagens</a>
+            </div>
+        </div>
+        
+        <img class="imagem" src="img/image.png" alt="">
+       
+    </section>
+
+    <section id="sobre">
+      <div class="divisoria-laranja" class="row align-items-center">
+        <p>O que é o clube</p>
     </div>
     </section>
 
-    <section class="pagina2">
-        
-        <div class="vantagens">
-            <h1>Frase de <br> teste para <br> alcançe</h1>
-            <p>Saiba mais em:</p>
-            <a href="" class="botao-vantagens">Vantagens</a>
+
+    <section id="laboratorios">
+      <div class="divisoria-laranja" class="row align-items-center">
+        <p>Laboratorios</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="txt">
+          <p class="lab">Pré Clube</p>
+          <p class="desc-lab">Desenvolvido para crianças de 4
+            a 8 anos, o programa é voltado
+            para explorar o universo junto
+            com a crianças por meio de conteúdos didáticos e lúdicos. Por meio de contação de histórias teatro, música, jogos e brincadeiras, aprendem sobre ciência e tecnologia.</p>
         </div>
-        <img  class="imagem" src="image.png" alt="">
-            
-        
+        <div class="card-img">
+          
+        </div>
+      </div>
+      <div class="card-reverse">
+        <div class="txt">
+          <p class="lab">Ciencias</p>
+          <p class="desc-lab">Este é um espaço onde as descobertas acontecem. Novas substâncias são sintetizadas, reações são exploradas e fenômenos são explicados.No laboratório de química, o conhecimento se entrelaça com a imaginação, a criatividade com a precisão. </p>
+        </div>
+        <div class="card-img">
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="txt">
+          <p class="lab">Robotica</p>
+          <p class="desc-lab">  Com a robótica, é possível perceber que os alunos querem construir coisas e ver aquilo que fazem no papel e na teoria ganhando vida no computador ou no meio físico. Então, eles têm aprendizado melhor, faltam menos  às aulas.</p>
+        </div>
+        <div class="card-img">
+          
+        </div>
+      </div>
+      <div class="card-reverse">
+        <div class="txt">
+          <p class="lab">Programação</p>
+          <p class="desc-lab">Aprender programação é uma habilidade essencial para o futuro e desenvolve o raciocínio lógico. Além disso, incentiva a criatividade e ajuda a solucionar problemas por meio de análises. A programação estimula a persistência e prepara as crianças para o futuro.</p>
+        </div>
+        <div class="card-img">
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="txt">
+          <p class="lab">Inovação</p>
+          <p class="desc-lab">Aprender programação é uma habilidade essencial para o futuro e desenvolve o raciocínio lógico. Além disso, incentiva a criatividade e ajuda a solucionar problemas por meio de análises. A programação estimula a persistência e prepara as crianças para o futuro.</p>
+        </div>
+        <div class="card-img">
+          
+        </div>
+      </div>
+    </div>
+    
     </section>
 
 
+    <section id="vantagens">
+      <div class="divisoria-laranja" class="row align-items-center">
+        <p>Vantagens</p>
+    </div>
+    </section>
+    <section id="comosurgiu">
+      <div class="divisoria-laranja" class="row align-items-center">
+        <p>Como surgiu?</p>
+    </div>
+    <section id="equipe">
+      <div class="divisoria-laranja" class="row align-items-center">
+        <p>Equipe</p>
 
+    </div>
+    </section>
 
+    <footer>
+        <div class="contato">
+            <form>
+                <input type="text" class="campo-form" placeholder="Seu Nome">
+                <input type="text" class="campo-form" placeholder="E-mail">
+                <input type="text" class="campo-form" placeholder="Telefone">
+                <input type="text" class="campo-form" placeholder="Idade do aluno">
 
-    <!-- JavaScript do menu hamburger -->
+            </form>
+        </div>
+
+        <div class="frequentes">
+
+        </div>
+    </footer>
+
     <script>
-        var navLinks = document.getElementById("navLinks");
+     
+      const menuLinks = document.querySelectorAll('#smooth a[href^="#"]');
 
-        function showMenu(){
-            navLinks.style.right = "0"
-        }
-        function hideMenu(){
-            navLinks.style.right = "-200px"
-        }
+      function getDistanceFromTheTop(element) {
+        const id = element.getAttribute("href");
+        return document.querySelector(id).offsetTop;
+      }
 
+
+      function scrollToSection(event) {
+        event.preventDefault();
+        const distanceFromTheTop = getDistanceFromTheTop(event.target) - 90;
+        smoothScrollTo(0, distanceFromTheTop);
+      }
+
+      menuLinks.forEach((link) => {
+        link.addEventListener("click", scrollToSection);
+      });
+
+      function smoothScrollTo(endX, endY, duration) {
+        const startX = window.scrollX || window.pageXOffset;
+        const startY = window.scrollY || window.pageYOffset;
+        const distanceX = endX - startX;
+        const distanceY = endY - startY;
+        const startTime = new Date().getTime();
+
+        duration = typeof duration !== "undefined" ? duration : 2000;
+
+        const easeInOutQuart = (time, from, distance, duration) => {
+          if ((time /= duration / 2) < 1)
+            return (distance / 2) * time * time * time * time + from;
+          return (-distance / 2) * ((time -= 2) * time * time * time - 2) + from;
+        };
+
+        const timer = setInterval(() => {
+          const time = new Date().getTime() - startTime;
+          const newX = easeInOutQuart(time, startX, distanceX, duration);
+          const newY = easeInOutQuart(time, startY, distanceY, duration);
+          if (time >= duration) {
+            clearInterval(timer);
+          }
+          window.scroll(newX, newY);
+        }, 1000 / 70);
+      }
     </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="mobile.js"></script>
+    
+    
 
 </body>
 </html>
