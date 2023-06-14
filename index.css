@@ -257,3 +257,8 @@ p{
     height: 300px;
     border: white solid 1px;
 }
+/*RODAPE*/
+footer{
+    width: 100%;
+    height: 1000px;
+}
