@@ -260,12 +260,13 @@ p{
 /*RODAPE*/
 footer{
     width: 100%;
-    height: 800px;
-    background-image: url(./img/FOOTER.png);
+    height: 900px;
+    background-image: url(img/FOOTER.png);
     background-repeat: no-repeat;
     background-position: bottom;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .contato{
