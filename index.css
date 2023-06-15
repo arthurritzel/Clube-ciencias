@@ -275,6 +275,162 @@ p{
     border: white solid 1px;
 }
 
+/* VANTAGENS */
+.conteudo_vantagens{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 90px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 170px 0px 170px;
+}
+
+.conteudo_vantagens img{
+    width: 70vh;
+    height: 80vh;
+    border-radius: 20px;
+}
+.caixa_maior{
+    width: 83vh;
+    height: auto;
+    background-image: url(img/vantagensfundo.png);
+    background-position: bottom;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+}
+
+.caixa1{
+    display: flex;
+    justify-content: end;
+    height: auto;
+}
+
+.caixa2{
+    display: flex;
+    justify-content: start;
+    height: auto;
+}
+
+.caixa3{
+    display: flex;
+    justify-content: end;
+    height: auto;
+}
+
+.quadrado1{
+    width: 50%;
+    color: white;
+    padding-left: 40px;
+}
+.quadrado2{
+    width: 50%;
+    color: white;
+    padding-right: 60px;
+   
+}
+
+.quadrado3{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    padding-left: 40px;
+}
+
+.botao_saiba_mais{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado3 a input{
+    background-color: #FC6335;
+    color: white;
+    border-radius: 20px;
+    width: 140px;
+}
+
+.caixa_maior_baixo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vh;
+    height: 110vh;
+    background-color:#103973;
+    border-radius: 20px;
+}
+
+.caixa_imagem{
+    width: 70vh;
+    height: 40vh;
+    padding: 45px 10px 0px 10px;
+   
+}
+
+.caixa_imagem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.pre_clube{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+    
+}
+
+.pre_clube h3{
+    font-size: 42px;
+    color: white;
+}
+
+.pre_clube p{
+    padding: 30px;
+}
+/* Identificador Pré Clube */
+.identificador1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FC6335;
+    border-radius: 60px;
+    position: absolute;
+    width: 560px;
+    height: 72px;
+    left: 185px;
+    top: 5258px;
+}
+
+.identificador1 p{
+    padding-top: 15px;
+    font-size: 70px;
+    font-family: inter, bold;
+}
+/* Identificador Clube */
+.identificador2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FC6335;
+    border-radius: 60px;
+    position: absolute;
+    width: 560px;
+    height: 72px;
+    left: 984px;
+    top: 5258px;
+}
+
+.identificador2 p{
+    padding-top: 15px;
+    font-size: 70px;
+    font-family: inter, bold;
+}
+
 /* como surgiu */
 
 .conteudo{
