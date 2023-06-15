@@ -307,7 +307,7 @@ footer{
     
 }
 
-.contato{
+#contato{
     background-color: #103973;
     width: 300px;
     height: 500px;
@@ -322,7 +322,7 @@ footer{
     color: #fff;
 }
 
-.contato p{
+#contato p{
     font-size: large;
 }
 
