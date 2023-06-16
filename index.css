@@ -257,3 +257,33 @@ p{
     height: 300px;
     border: white solid 1px;
 }
+
+#sep{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    justify-content: center;
+
+}
+
+.profs{
+    
+    margin: 20px;
+    width: 450px;
+    height: 150px;
+    display: flex;
+
+}
+
+.profs > img {
+    max-width: fit-content;
+}
+
+#nome {
+    padding-top: 20px;
+    /* border:1px solid red; */
+    color:white;
+    padding-left: 40px;
+}
+
