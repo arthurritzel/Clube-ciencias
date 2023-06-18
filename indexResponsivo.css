@@ -1,3 +1,13 @@
+@media (max-width: 1179px) and (min-width: 1000px){
+  .card-img{
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-img div{
+    display: flex;
+  }
+}
+
 @media (max-width: 999px) {
     nav{
       background-color: transparent;
@@ -90,11 +100,19 @@
   margin: 20px;
   
 }
-  }
+
+.card-img-none{
+  display: none;
+}
+}
 
   @media (max-width: 765px){
+    .sobre-conteudo{
+      flex-direction: column;
+    }
     .img-cont{
-      display: none;
+      transform: rotate(-90deg);
+      width: 80%;
     }
     .sobre-conteudo > p{
       font-size: 20px;
