@@ -275,7 +275,8 @@ p{
     border: white solid 1px;
 }
 
-/* VANTAGENS */
+/* PÁGINA - VANTAGENS */
+
 .conteudo_vantagens{
     height: auto;
     display: flex;
@@ -283,9 +284,9 @@ p{
     row-gap: 90px;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 170px 0px 170px;
+    padding: 10px 170px 0px 170px;
 }
-
+/* 2 Caixas de cima */
 .conteudo_vantagens img{
     width: 70vh;
     height: 80vh;
@@ -353,82 +354,75 @@ p{
     width: 140px;
 }
 
-.caixa_maior_baixo1{
+/* 2 Caixas de baixo */
+.caixa_fundo{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.identificador{
+    background-color: #FC6335;
+    filter: drop-shadow(3px 6px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    width: 94%;
+    height: 80px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.identificador p{
+    font-size: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.caixa_maior_baixo{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 70vh;
-    height: 110vh;
+    height: 100vh;
     background-color:#103973;
-    border-radius: 20px;
+    padding-top: 50px;
+    border-radius: 30px;
 }
 
 .caixa_imagem{
     width: 70vh;
-    height: 40vh;
-    padding: 45px 10px 0px 10px;
+    height: 50vh;
+    padding: 45px 13px 0px 13px;
    
 }
 
 .caixa_imagem img{
     width: 100%;
     height: 100%;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 
-.pre_clube{
-display: flex;
-flex-direction: column;
-align-items: center;
-
-    
+.caixa_texto_vantagens{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
 
-.pre_clube h3{
+.caixa_texto_vantagens h3{
     font-size: 42px;
     color: white;
 }
 
-.pre_clube p{
+.caixa_texto_vantagens p{
     padding: 30px;
-}
-/* Identificador Pré Clube */
-.identificador1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FC6335;
-    border-radius: 60px;
-    position: absolute;
-    width: 560px;
-    height: 72px;
-    left: 185px;
-    top: 5258px;
-}
-
-.identificador1 p{
-    padding-top: 15px;
-    font-size: 70px;
-    font-family: inter, bold;
-}
-/* Identificador Clube */
-.identificador2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FC6335;
-    border-radius: 60px;
-    position: absolute;
-    width: 560px;
-    height: 72px;
-    left: 984px;
-    top: 5258px;
-}
-
-.identificador2 p{
-    padding-top: 15px;
-    font-size: 70px;
-    font-family: inter, bold;
 }
 
 /* como surgiu */
