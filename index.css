@@ -268,7 +268,20 @@ p{
 .desc-lab{
     font-size: 18px;
 }
-
+.card-img-reverse{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.card-img-reverse div{
+    width: min-content;
+    
+}
+.card-img-reverse img{
+    border-radius: 15px;
+    border: 1px solid white;
+}
 .card-img{
     width: 80%;
     display: flex;
