@@ -135,11 +135,19 @@
       margin: 15px;
       
     }
+    #sep{
+      
+        
+    }
+    
   }
 
   .nav-list.active {
     transform: translateX(0);
   }
+ 
+  
+    
   
   @keyframes navLinkFade {
     from {
