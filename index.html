@@ -305,6 +305,10 @@
             </form>
         </div>
 
+        <span id="backtotop-btn">
+          <img class="arrow-top" src="./img/FOGUETINHO.png"> 
+        </span>
+
         <div class="perguntas-frequentes">
           <div class="frequente">
             <p>DUVIDAS FREQUENTES:</p>
@@ -381,6 +385,31 @@
           window.scroll(newX, newY);
         }, 1000 / 70);
       }
+
+      //botao
+      const backtotop_btn = document.getElementById("backtotop-btn")
+
+      window.onscroll = function () {
+          if (document.documentElement.scrollTop > 700 || document.body.scrollTop > 700) {
+              backtotop_btn.setAttribute("class", "slide-in-bottom")
+
+              backtotop_btn.style.visibility = "visible"
+          } else {
+              backtotop_btn.setAttribute("class", "slide-out-top")
+              backtotop_btn.style.visibility = "hidden"
+          }
+      }
+      backtotop_btn.onclick = function() {
+      document.documentElement.scrollTo({
+          top: 0,
+          behavior: "smooth"
+      });
+      document.body.scrollTo({
+          top: 0,
+          behavior: "smooth"
+      });
+};
+
     </script>
 
 
