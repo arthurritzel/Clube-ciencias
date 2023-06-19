@@ -295,29 +295,31 @@ p{
     border-radius: 15px;
     border: 1px solid white;
 }
-
-/* PÁGINA - VANTAGENS */
-
-.conteudo_vantagens{
+/* vantagens */
+.conteudo-vantagens{
+    width: 100%;
     height: auto;
     display: flex;
-    flex-wrap: wrap;
-    row-gap: 90px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 170px 0px 170px;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
 }
-/* 2 Caixas de cima */
-.conteudo_vantagens img{
-    width: 70vh;
-    height: 80vh;
-    border-radius: 20px;
+.box1{
+    border: solid 1px white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.vantagens-1img{
+    border-radius: 15px;
 }
 .caixa_maior{
-    width: 83vh;
+    /* border: solid 1px white; */
+    width: 600px;
     height: auto;
     background-image: url(img/vantagensfundo.png);
-    background-position: bottom;
+    background-position: center;
     background-size: 400px;
     background-repeat: no-repeat;
     background-position-y: 60px;
@@ -374,13 +376,21 @@ p{
     border-radius: 20px;
     width: 140px;
 }
+.clubes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-/* 2 Caixas de baixo */
 .caixa_fundo{
-    height: 110vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 35%;
+    /* border: solid 1px white; */
 
 }
 .identificador{
@@ -407,26 +417,22 @@ p{
 }
 
 .caixa_maior_baixo{
+    /* border: solid 1px white; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70vh;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     background-color:#103973;
     padding-top: 50px;
     border-radius: 30px;
 }
 
-.caixa_imagem{
-    width: 70vh;
-    height: 50vh;
-    padding: 45px 13px 0px 13px;
-   
-}
 
-.caixa_imagem img{
-    width: 100%;
-    height: 100%;
+
+.caixa_maior_baixo img{
+    
+    width: 80%;
     border-radius: 50px;
 }
 
@@ -445,7 +451,6 @@ p{
 .caixa_texto_vantagens p{
     padding: 30px;
 }
-
 /* como surgiu */
 
 .conteudo{
