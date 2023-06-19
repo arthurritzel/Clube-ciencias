@@ -474,6 +474,7 @@ p{
 }
 /*RODAPE*/
 footer{
+    margin-top: 100px;
     width: 100%;
     height: 900px;
     background-image: url(img/FOOTER.png);
@@ -567,10 +568,7 @@ form{
     border-radius: 5px;
 }
 
-    width: 70%;
-    height: 300px;
-    border: white solid 1px;
-}
+    
 
 #sep{
 
