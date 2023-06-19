@@ -173,7 +173,14 @@
     transform: rotate(45deg) translate(-5px, -7px);
   }
 
-
+  @media(max-width: 424px){
+    .divisoria-laranja p{
+      font-size: 36px;
+  }
+  .lab{
+    font-size: 36px;
+  }
+  }
  
 
   
