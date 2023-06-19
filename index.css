@@ -468,8 +468,9 @@ p{
 
 .comosurgiu-img{
     width: 500px;
-    border: white solid 1px;
+    
     height: 600px;
+    border-radius: 15px;
 }
 /*RODAPE*/
 footer{
