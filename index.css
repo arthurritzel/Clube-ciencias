@@ -295,7 +295,162 @@ p{
     border-radius: 15px;
     border: 1px solid white;
 }
+/* vantagens */
+.conteudo-vantagens{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
+}
+.box1{
+    border: solid 1px white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.vantagens-1img{
+    border-radius: 15px;
+}
+.caixa_maior{
+    /* border: solid 1px white; */
+    width: 600px;
+    height: auto;
+    background-image: url(img/vantagensfundo.png);
+    background-position: center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+}
 
+.caixa1{
+    display: flex;
+    justify-content: end;
+    height: auto;
+}
+
+.caixa2{
+    display: flex;
+    justify-content: start;
+    height: auto;
+}
+
+.caixa3{
+    display: flex;
+    justify-content: end;
+    height: auto;
+}
+
+.quadrado1{
+    width: 50%;
+    color: white;
+    padding-left: 40px;
+}
+.quadrado2{
+    width: 50%;
+    color: white;
+    padding-right: 60px;
+   
+}
+
+.quadrado3{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    padding-left: 40px;
+}
+
+.botao_saiba_mais{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado3 a input{
+    background-color: #FC6335;
+    color: white;
+    border-radius: 20px;
+    width: 140px;
+}
+.clubes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.caixa_fundo{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    /* border: solid 1px white; */
+
+}
+.identificador{
+    background-color: #FC6335;
+    filter: drop-shadow(3px 6px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    width: 94%;
+    height: 80px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.identificador p{
+    font-size: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.caixa_maior_baixo{
+    /* border: solid 1px white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color:#103973;
+    padding-top: 50px;
+    border-radius: 30px;
+}
+
+
+
+.caixa_maior_baixo img{
+    
+    width: 80%;
+    border-radius: 50px;
+}
+
+.caixa_texto_vantagens{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.caixa_texto_vantagens h3{
+    font-size: 42px;
+    color: white;
+}
+
+.caixa_texto_vantagens p{
+    padding: 30px;
+}
 /* como surgiu */
 
 .conteudo{

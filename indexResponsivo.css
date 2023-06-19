@@ -96,6 +96,14 @@
   .card-img{
     width: 90%;
   }
+
+  .clubes{
+    flex-direction: column;
+    align-items: center;
+  }
+  .caixa_fundo{
+    width: 80%;
+  }
   .comosurgiu-txt{
    
     font-size: 25px;
