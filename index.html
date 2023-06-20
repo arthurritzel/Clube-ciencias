@@ -7,13 +7,13 @@
     <title>Clube de Ciências</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/fguetee.png" type="image/x-icon">
-    <!-- --------- -->
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="navbar-responsiva.css">
-    <link rel="stylesheet" href="media-1179px.css">
-    <link rel="stylesheet" href="media-999px.css">
-    <link rel="stylesheet" href="media-765px.css">
-    <link rel="stylesheet" href="media-426px.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css-responsivo/navbar-responsiva.css">
+    <link rel="stylesheet" href="css-responsivo/media-1179px.css">
+    <link rel="stylesheet" href="css-responsivo/media-999px.css">
+    <link rel="stylesheet" href="css-responsivo/media-765px.css">
+    <link rel="stylesheet" href="css-responsivo/media-426px.css">
     <!-- --------- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -410,85 +410,13 @@
         </div>
     </footer>
 
+    <!-- scripts -->
+    <script src="https://kit.fontawesome.com/d962411a6f.js" crossorigin="anonymous"></script>  
     
-    <script>
-     
-      const menuLinks = document.querySelectorAll('#smooth a[href^="#"]');
-
-      function getDistanceFromTheTop(element) {
-        const id = element.getAttribute("href");
-        return document.querySelector(id).offsetTop;
-      }
-
-
-      function scrollToSection(event) {
-        event.preventDefault();
-        const distanceFromTheTop = getDistanceFromTheTop(event.target) - 90;
-        smoothScrollTo(0, distanceFromTheTop);
-      }
-
-      menuLinks.forEach((link) => {
-        link.addEventListener("click", scrollToSection);
-      });
-
-      function smoothScrollTo(endX, endY, duration) {
-        const startX = window.scrollX || window.pageXOffset;
-        const startY = window.scrollY || window.pageYOffset;
-        const distanceX = endX - startX;
-        const distanceY = endY - startY;
-        const startTime = new Date().getTime();
-
-        duration = typeof duration !== "undefined" ? duration : 2000;
-
-        const easeInOutQuart = (time, from, distance, duration) => {
-          if ((time /= duration / 2) < 1)
-            return (distance / 2) * time * time * time * time + from;
-          return (-distance / 2) * ((time -= 2) * time * time * time - 2) + from;
-        };
-
-        const timer = setInterval(() => {
-          const time = new Date().getTime() - startTime;
-          const newX = easeInOutQuart(time, startX, distanceX, duration);
-          const newY = easeInOutQuart(time, startY, distanceY, duration);
-          if (time >= duration) {
-            clearInterval(timer);
-          }
-          window.scroll(newX, newY);
-        }, 1000 / 70);
-      }
-
-      //botao
-      const backtotop_btn = document.getElementById("backtotop-btn")
-
-      window.onscroll = function () {
-          if (document.documentElement.scrollTop > 7000 || document.body.scrollTop > 7000) {
-              backtotop_btn.setAttribute("class", "slide-in-bottom")
-
-              backtotop_btn.style.visibility = "visible"
-          } else {
-              backtotop_btn.setAttribute("class", "slide-out-top")
-              backtotop_btn.style.visibility = "hidden"
-          }
-      }
-      backtotop_btn.onclick = function() {
-      document.documentElement.scrollTo({
-          top: 0,
-          behavior: "smooth"
-      });
-      document.body.scrollTo({
-          top: 0,
-          behavior: "smooth"
-      });
-};
-
-    </script>
-
+    <script src="script/scrollbehavior.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
-    <script src="mobile.js"></script>
-    
-    
-
+    <script src="script/mobile.js"></script>
 </body>
 </html>
