@@ -13,8 +13,6 @@ html{
 
 body{
     background-image: linear-gradient(#000000, #033780, #467DEB);
-
-
 }
 
 
@@ -49,9 +47,8 @@ nav {
     height: 8vh;
     z-index:4;
   }
-  .nav-list{
+.nav-list{
     display: flex;
-    
     text-align: right;
 }
 .nav-list li{
@@ -64,7 +61,6 @@ nav {
     text-decoration: none;
     font-size: 15px;
     font-family: 'Inter', sans-serif;
-
 }
 .nav-list li::after{
     content: '';
@@ -74,29 +70,27 @@ nav {
     display: block;
     margin: auto;
     transition: 0.5s;
-
 }
 .nav-list  li:hover::after{
-    width: 100%;
-    
+    width: 100%;  
 }
   
-  .mobile-menu {
+.mobile-menu {
     display: none;
     cursor: pointer;
-  }
+}
   
-  .mobile-menu div {
+.mobile-menu div {
     width: 32px;
     height: 2px;
     background: #fff;
     margin: 8px;
     transition: 0.3s;
-  }
-  .galax{
+}
+.galax{
     width: 100%;
     height: 120vh;
-  }
+}
 .caixa-de-texto{
     width: 90%;
     position: absolute;
@@ -210,6 +204,7 @@ p{
     border-radius: 30px;
 }
 
+/* Sobre */
 #sobre{
     margin-top: 100px;
     height: auto;
@@ -311,6 +306,7 @@ p{
     border-radius: 15px;
     box-shadow: #000000b4 1px 5px 5px;
 }
+
 /* vantagens */
 .conteudo-vantagens{
     width: 100%;
@@ -482,8 +478,8 @@ p{
 .caixa_texto_vantagens p{
     padding: 30px;
 }
-/* como surgiu */
 
+/* como surgiu */
 .conteudo{
     display: flex;
     justify-content: center;
@@ -500,6 +496,35 @@ p{
 .comosurgiu-img{
     border-radius: 15px;
 }
+
+/* contatos */
+#sep{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.profs{
+    
+    margin: 20px;
+    width: 450px;
+    height: 150px;
+    display: flex;
+
+}
+
+.profs > img {
+    max-width: fit-content;
+}
+
+#nome {
+    padding-top: 20px;
+    /* border:1px solid red; */
+    color:white;
+    padding-left: 40px;
+}
+
 /*RODAPE*/
 footer{
     margin-top: 100px;
@@ -552,15 +577,15 @@ footer{
     margin-right: 20px;
 }
 
-  .slide-in-bottom {
+.slide-in-bottom {
     -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  }
-  .slide-out-top {
+}
+.slide-out-top {
     -webkit-animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-  }
-  @-webkit-keyframes slide-in-bottom {
+}
+@-webkit-keyframes slide-in-bottom {
     0% {
         -webkit-transform: translateY(1000px);
         transform: translateY(1000px);
@@ -571,8 +596,8 @@ footer{
         transform: translateY(0);
         opacity: 1;
     }
-  }
-  @keyframes slide-in-bottom {
+}
+@keyframes slide-in-bottom {
     0% {
         -webkit-transform: translateY(1000px);
         transform: translateY(1000px);
@@ -583,8 +608,8 @@ footer{
         transform: translateY(0);
         opacity: 1;
     }
-  }
-  @-webkit-keyframes slide-out-top {
+}
+@-webkit-keyframes slide-out-top {
     0% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -595,8 +620,8 @@ footer{
         transform: translateY(-1000px);
         opacity: 0;
     }
-  }
-  @keyframes slide-out-top {
+}
+@keyframes slide-out-top {
     0% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -607,7 +632,7 @@ footer{
         transform: translateY(-1000px);
         opacity: 0;
     }
-  }
+}
 
 .perguntas-frequentes{
     background-color: #103973;
@@ -672,33 +697,3 @@ form{
     border: #fff 1px solid;
     border-radius: 5px;
 }
-
-    
-
-#sep{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.profs{
-    
-    margin: 20px;
-    width: 450px;
-    height: 150px;
-    display: flex;
-
-}
-
-.profs > img {
-    max-width: fit-content;
-}
-
-#nome {
-    padding-top: 20px;
-    /* border:1px solid red; */
-    color:white;
-    padding-left: 40px;
-}
-
