@@ -178,6 +178,10 @@
     }
   }
   @media (max-width: 426px){
+    h1{
+      font-size: 40px;
+    }
+
     footer{
       height: 1500px;
       background-image: url(./img/SITERESPONSIVO.png);
