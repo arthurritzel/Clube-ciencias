@@ -280,7 +280,7 @@ p{
 }
 .card-img-reverse img{
     border-radius: 15px;
-    border: 1px solid white;
+    box-shadow: #000000b4 1px 5px 5px;
 }
 .card-img{
     width: 80%;
@@ -293,7 +293,7 @@ p{
 }
 .card-img img{
     border-radius: 15px;
-    border: 1px solid white;
+    box-shadow: #000000b4 1px 5px 5px;
 }
 /* vantagens */
 .conteudo-vantagens{
@@ -302,10 +302,10 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 .box1{
-    border: solid 1px white;
+    /* border: solid 1px white; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -314,10 +314,17 @@ p{
 .vantagens-1img{
     border-radius: 15px;
 }
+.linha{
+    /* border: 1px solid white; */
+    height: 800px;
+}
 .caixa_maior{
     /* border: solid 1px white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 600px;
-    height: auto;
+    height: 650px;
     background-image: url(img/vantagensfundo.png);
     background-position: center;
     background-size: 400px;
@@ -329,18 +336,24 @@ p{
     display: flex;
     justify-content: end;
     height: auto;
+    width: 100%;
+    /* border: 1px solid white; */
 }
 
 .caixa2{
     display: flex;
     justify-content: start;
     height: auto;
+    width: 100%;
+    /* border: 1px solid white; */
 }
 
 .caixa3{
     display: flex;
     justify-content: end;
     height: auto;
+    width: 100%;
+    /* border: 1px solid white; */
 }
 
 .quadrado1{
@@ -428,7 +441,9 @@ p{
     border-radius: 30px;
 }
 
-
+.desc-cl{
+    font-size: 22px;
+}
 
 .caixa_maior_baixo img{
     
@@ -569,10 +584,8 @@ form{
     
 
 #sep{
-
     display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
     justify-content: center;
 
 }
