@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -14,6 +16,7 @@ body{
 
 
 }
+
 
 .divisoria-laranja{
     background-color: #FC6335;
@@ -101,14 +104,27 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
-.caixa-de-texto h1{
-    font-family: 'Inter', sans-serif;
+h1{
+    line-height: 65px;
+    font-family: 'inter' bold;
+    font-size: 90px;
+    text-align: left;
+    color: aliceblue;
+}
+.cld{
+    text-align: left;
+    font-family: 'Damion', cursive;
+    font-size: 78px;
+}
+.txt-cien{
     font-size: 60px;
-    color: #fff;
-
 }
+
 
 .primeiro-botao{
     display: inline-block;
@@ -475,8 +491,8 @@ p{
 }
 
 .comosurgiu-txt{
-    width: 600px;
-    font-size: 35px;
+    width: 580px;
+    font-size: 30px;
     margin-right: 10px;
     text-align: justify;
 }
