@@ -273,11 +273,13 @@ p{
     border-radius: 20px;
     padding: 0px 10px 0px 10px;
     width: fit-content;
-    font-family: inter, bold;
+    font-family: 'Inter', sans-serif;
 }
 
 .desc-lab{
     font-size: 18px;
+    font-family: 'Inter', sans-serif;
+
 }
 .card-img-reverse{
     width: 80%;
@@ -314,6 +316,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Inter', sans-serif;
     /* border: 1px solid white; */
 }
 .box1{
@@ -434,7 +437,7 @@ p{
 
 .identificador p{
     font-size: 70px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 64px;
@@ -455,6 +458,7 @@ p{
 
 .desc-cl{
     font-size: 22px;
+    font-family: 'Inter', sans-serif;
 }
 
 .caixa_maior_baixo img{
@@ -472,6 +476,7 @@ p{
 
 .caixa_texto_vantagens h3{
     font-size: 42px;
+    font-family: 'Inter', sans-serif;
     color: white;
 }
 
@@ -491,6 +496,7 @@ p{
     font-size: 30px;
     margin-right: 10px;
     text-align: justify;
+    font-family: 'Inter', sans-serif;
 }
 
 .comosurgiu-img{
