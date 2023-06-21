@@ -13,7 +13,7 @@
         display: flex;
         margin: 0;
         margin-bottom: 20px;
-        border: 1px solid white;
+        
     }
     
     #contato p{
@@ -25,7 +25,7 @@
         width: 270px;
         height: 450px;
         margin: 0;
-        border: 1px solid white;
+        
     }
     
     .perguntas-frequentes p{

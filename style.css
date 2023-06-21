@@ -329,6 +329,9 @@ p{
 .vantagens-1img{
     border-radius: 15px;
 }
+.vant-txt{
+    text-align: justify;
+}
 .linha{
     /* border: 1px solid white; */
     height: 800px;
@@ -461,6 +464,7 @@ p{
 .desc-cl{
     font-size: 22px;
     font-family: 'Inter', sans-serif;
+    text-align: justify;
 }
 
 .caixa_maior_baixo img{
@@ -495,7 +499,7 @@ p{
 
 .comosurgiu-txt{
     width: 580px;
-    font-size: 30px;
+    font-size: 28px;
     margin-right: 10px;
     text-align: justify;
     font-family: 'Inter', sans-serif;

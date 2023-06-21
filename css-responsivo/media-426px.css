@@ -2,7 +2,9 @@
     h1{
       font-size: 40px;
     }
-
+    .caixa_maior{
+      background-size: 340px;
+    }
     footer{
       
       background-image: url(../img/SITERESPONSIVO.png);
@@ -63,6 +65,10 @@
     
     .desc-cl{
     font-size: 15px;
+    }
+
+    .comosurgiu-txt{
+      font-size: 12px;
     }
   }
   
