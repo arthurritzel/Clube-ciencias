@@ -161,7 +161,6 @@ p{
 }
 
 .vantagens{
-    /* border: solid 2px #fff;  */
     width: 50%;
     display: flex;
     justify-content: center;
@@ -317,10 +316,8 @@ p{
     flex-direction: column;
     justify-content: center;
     font-family: 'Inter', sans-serif;
-    /* border: 1px solid white; */
 }
 .box1{
-    /* border: solid 1px white; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -333,22 +330,20 @@ p{
     text-align: justify;
 }
 .linha{
-    /* border: 1px solid white; */
     height: 800px;
 }
 .caixa_maior{
-    /* border: solid 1px white; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 600px;
-    height: 650px;
+    height: 660px;
     background-image: url(img/vantagensfundo.png);
     background-position: center;
-    background-size: 400px;
+    background-size: 390px;
     background-repeat: no-repeat;
-    background-position-y: 60px;
-    padding-top: 14%;
+    background-position-y: 100px;
+    padding-top: 25%;
     padding-left: 1%
 }
 
@@ -357,7 +352,6 @@ p{
     justify-content: end;
     height: auto;
     width: 100%;
-    /* border: 1px solid white; */
 }
 
 .caixa2{
@@ -365,7 +359,6 @@ p{
     justify-content: start;
     height: auto;
     width: 100%;
-    /* border: 1px solid white; */
 }
 
 .caixa3{
@@ -373,7 +366,6 @@ p{
     justify-content: end;
     height: auto;
     width: 100%;
-    /* border: 1px solid white; */
 }
 
 .quadrado1{
