@@ -273,11 +273,13 @@ p{
     border-radius: 20px;
     padding: 0px 10px 0px 10px;
     width: fit-content;
-    font-family: inter, bold;
+    font-family: 'Inter', sans-serif;
 }
 
 .desc-lab{
     font-size: 18px;
+    font-family: 'Inter', sans-serif;
+
 }
 .card-img-reverse{
     width: 80%;
@@ -314,6 +316,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Inter', sans-serif;
     /* border: 1px solid white; */
 }
 .box1{
@@ -325,6 +328,9 @@ p{
 }
 .vantagens-1img{
     border-radius: 15px;
+}
+.vant-txt{
+    text-align: justify;
 }
 .linha{
     /* border: 1px solid white; */
@@ -436,7 +442,7 @@ p{
 
 .identificador p{
     font-size: 70px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 64px;
@@ -457,6 +463,8 @@ p{
 
 .desc-cl{
     font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
 }
 
 .caixa_maior_baixo img{
@@ -474,6 +482,7 @@ p{
 
 .caixa_texto_vantagens h3{
     font-size: 42px;
+    font-family: 'Inter', sans-serif;
     color: white;
 }
 
@@ -490,9 +499,10 @@ p{
 
 .comosurgiu-txt{
     width: 580px;
-    font-size: 30px;
+    font-size: 28px;
     margin-right: 10px;
     text-align: justify;
+    font-family: 'Inter', sans-serif;
 }
 
 .comosurgiu-img{
@@ -531,17 +541,23 @@ p{
 footer{
     margin-top: 100px;
     width: 100%;
-    height: 900px;
+    height: auto;
     background-image: url(img/SITE.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    
     
 }
-
+.footercont{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+}
 #contato{
     background-color: #103973;
     width: 300px;
