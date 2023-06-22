@@ -1,5 +1,19 @@
 @media (max-width: 640px){
+  .quadrado1{
+    width: 70%;
+  }
 
+  .quadrado2{
+    width: 70%;
+  }
+
+  .quadrado3{
+    width: 70%;
+  }
+  .caixa2{
+    width: 90%;
+    margin-left: 10px;
+  }
     footer{
         height: 1500px;
         background-image: url(../img/SITERESPONSIVO.png);
