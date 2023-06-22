@@ -1,4 +1,10 @@
 @media (max-width: 426px){
+    .vantagens h2{
+      font-size: 30px;
+    }
+    .vantagens a{
+      font-size: 12px;
+    }
     h1{
       font-size: 40px;
     }
