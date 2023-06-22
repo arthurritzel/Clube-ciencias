@@ -22,8 +22,8 @@
     
 
     .perguntas-frequentes{
-        width: 270px;
-        height: 450px;
+        width: 300px;
+        height: fit-content;
         margin: 0;
         
     }
@@ -63,8 +63,8 @@
     
     .frequente{
         margin: 10px;
-        height: 400px;
-        width: 280px;
+        height: auto;
+        width: fit-content;
 
     }
     .campo-freq{
