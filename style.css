@@ -702,7 +702,8 @@ form{
     text-align: center;
 }
 .campo-freq{
-    margin: 10px;
-    border: #fff 1px solid;
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
     border-radius: 5px;
 }
