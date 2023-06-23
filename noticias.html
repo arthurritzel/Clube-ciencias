@@ -46,82 +46,104 @@
             font-family: inter;
         }
 
-        .div-noticias{
-            width: 100%;
-            
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-           
+       .noticia{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 200px;
+       }
+       .txt{
+        width: 40%;
+       }
+       .img-noticia{
+        border-radius: 15px;
+        box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.575);
+        padding-bottom: 0px;
+       }
+       .titulo{
+        font-family: inter;
+        font-size: 34px;
+        color: white;
+        padding-top: 30px;
+       }
+       .subtitulo{
+        font-family: inter ;
+        font-size: 15px;
+        color: white;
+        padding-left: 10px;
+       }
+       .descricao{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        color: white;
+        padding-top: 30px;
+        text-align: justify;
+        padding-left: 10px;
+       }
+
+       /* media */
+       @media(max-width: 840px){
+        .txt{
+            width: 90%;
         }
-        .noticias{
-            height: 500px;
-            border: 1px solid black;
-            width: 300px;
-            margin: 20px;
-            background-color: white;
-            border-radius: 20px;
-            border: 0px;
-            
-            box-shadow: 5px 5px 5px black;
+       }
+       @media(max-width: 450px){
+        .descricao{
+            font-size: 12px;
         }
-        .noticias:hover{
-            transition: box-shadow .5s;
-            box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.349);
-            
-        }
-        .noticias > img{
-            border-radius: 20px 20px 0px 0px;
-            width: 100%;
-        }
-        .noticias > p{
-            font-family: inter light;
-            font-size: 15px;
-            padding: 10px;
-        }
+       }
     </style>
 </head>
 <body>
     <div class="divisoria-laranja">
         <h1>Noticias</h1>
     </div>
-        <div class="voltar">
+    <div class="voltar">
         <a  href="index.html"> <- Voltar</a>  
     </div>
+    <div class="noticia">
+        <div class="txt">
+            <p class="titulo"> Clube de Ciências do Biopark revoluciona o ensino científico para jovens talentos</p>
+            <p class="subtitulo"> Um espaço inovador onde a curiosidade se transforma em descobertas surpreendentes</p>
+            <p class="descricao">&emsp;No Clube de Ciências do Biopark, uma revolução está em curso no ensino científico para jovens talentos. Com um ambiente estimulante e recursos de ponta, o clube está transformando a maneira como os jovens exploram o mundo da ciência. Com a missão de despertar a curiosidade e incentivar a criatividade, o clube oferece aos alunos um espaço único onde a curiosidade se transforma em descobertas surpreendentes. <br>
 
-    <div class="div-noticias">
-        <div class="noticias" >
-            <img src="img/noticia exemplo.jpg" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, rem ullam commodi quod consequatur laudantium dolores eum vitae placeat excepturi corrupti odit eveniet voluptates sint, nostrum nam possimus minus cumque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam officiis omnis, molestiae repellendus necessitatibus sit ipsum modi harum dolor deserunt eveniet natus porro at, incidunt, in animi numquam consequatur? </p>
+                &emsp;Equipado com um laboratório de última geração e uma equipe de profissionais dedicados, o Clube de Ciências do Biopark proporciona aos jovens cientistas a liberdade de experimentar, explorar e mergulhar em projetos científicos desafiadores. Aqui, eles são incentivados a questionar, testar hipóteses e buscar soluções inovadoras para os problemas do mundo real.<br>
+                
+                &emsp;Além disso, o clube promove a participação em competições científicas renomadas, permitindo que os alunos demonstrem suas habilidades e conhecimentos, acumulando prêmios e reconhecimentos ao longo do caminho. O Clube de Ciências do Biopark está se tornando uma referência no cenário científico, atraindo jovens talentos e inspirando uma nova geração de cientistas.<br>
+                
+                &emsp;Com uma abordagem dinâmica e apaixonada pela ciência, o Clube de Ciências do Biopark está mudando a maneira como os jovens se envolvem com a ciência. Aqui, eles descobrem que a ciência é muito mais do que fórmulas e teorias, é uma jornada emocionante de exploração, descoberta e impacto no mundo. Prepare-se para se surpreender com as incríveis realizações que estão surgindo desse clube inovador e inspirador! <br><br>
+
+                18/02/2023
+           </p>
         </div>
-        <div class="noticias" >
-            <img src="img/noticia exemplo.jpg" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, rem ullam commodi quod consequatur laudantium dolores eum vitae placeat excepturi corrupti odit eveniet voluptates sint, nostrum nam possimus minus cumque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam officiis omnis, molestiae repellendus necessitatibus sit ipsum modi harum dolor deserunt eveniet natus porro at, incidunt, in animi numquam consequatur? </p>
+        <picture>
+            <source media="(max-width: 500px)" srcset="img/img-vantagens-mobile.png">
+            <img class="img-noticia" src="img/img-vantagens.png" alt="">
+        </picture>
+    </div>
+
+    <div class="noticia">
+        <div class="txt">
+            <p class="titulo"> Clube de Ciências do Biopark revoluciona o ensino científico para jovens talentos</p>
+            <p class="subtitulo"> Um espaço inovador onde a curiosidade se transforma em descobertas surpreendentes</p>
+            <p class="descricao">&emsp;No Clube de Ciências do Biopark, uma revolução está em curso no ensino científico para jovens talentos. Com um ambiente estimulante e recursos de ponta, o clube está transformando a maneira como os jovens exploram o mundo da ciência. Com a missão de despertar a curiosidade e incentivar a criatividade, o clube oferece aos alunos um espaço único onde a curiosidade se transforma em descobertas surpreendentes. <br>
+
+                &emsp;Equipado com um laboratório de última geração e uma equipe de profissionais dedicados, o Clube de Ciências do Biopark proporciona aos jovens cientistas a liberdade de experimentar, explorar e mergulhar em projetos científicos desafiadores. Aqui, eles são incentivados a questionar, testar hipóteses e buscar soluções inovadoras para os problemas do mundo real.<br>
+                
+                &emsp;Além disso, o clube promove a participação em competições científicas renomadas, permitindo que os alunos demonstrem suas habilidades e conhecimentos, acumulando prêmios e reconhecimentos ao longo do caminho. O Clube de Ciências do Biopark está se tornando uma referência no cenário científico, atraindo jovens talentos e inspirando uma nova geração de cientistas.<br>
+                
+                &emsp;Com uma abordagem dinâmica e apaixonada pela ciência, o Clube de Ciências do Biopark está mudando a maneira como os jovens se envolvem com a ciência. Aqui, eles descobrem que a ciência é muito mais do que fórmulas e teorias, é uma jornada emocionante de exploração, descoberta e impacto no mundo. Prepare-se para se surpreender com as incríveis realizações que estão surgindo desse clube inovador e inspirador!<br><br>
+
+                18/02/2023
+           </p>
         </div>
-        <div class="noticias" >
-            <img src="img/noticia exemplo.jpg" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, rem ullam commodi quod consequatur laudantium dolores eum vitae placeat excepturi corrupti odit eveniet voluptates sint, nostrum nam possimus minus cumque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam officiis omnis, molestiae repellendus necessitatibus sit ipsum modi harum dolor deserunt eveniet natus porro at, incidunt, in animi numquam consequatur? </p>
-        </div>
-        <div class="noticias" >
-            <img src="img/noticia exemplo.jpg" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, rem ullam commodi quod consequatur laudantium dolores eum vitae placeat excepturi corrupti odit eveniet voluptates sint, nostrum nam possimus minus cumque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam officiis omnis, molestiae repellendus necessitatibus sit ipsum modi harum dolor deserunt eveniet natus porro at, incidunt, in animi numquam consequatur? </p>
-        </div>
-        <div class="noticias" >
-            <img src="img/noticia exemplo.jpg" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, rem ullam commodi quod consequatur laudantium dolores eum vitae placeat excepturi corrupti odit eveniet voluptates sint, nostrum nam possimus minus cumque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam officiis omnis, molestiae repellendus necessitatibus sit ipsum modi harum dolor deserunt eveniet natus porro at, incidunt, in animi numquam consequatur? </p>
-        </div>
-        <div class="noticias" >
-            <img src="img/noticia exemplo.jpg" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, rem ullam commodi quod consequatur laudantium dolores eum vitae placeat excepturi corrupti odit eveniet voluptates sint, nostrum nam possimus minus cumque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam officiis omnis, molestiae repellendus necessitatibus sit ipsum modi harum dolor deserunt eveniet natus porro at, incidunt, in animi numquam consequatur? </p>
-        </div>
-        <div class="noticias" >
-            <img src="img/noticia exemplo.jpg" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, rem ullam commodi quod consequatur laudantium dolores eum vitae placeat excepturi corrupti odit eveniet voluptates sint, nostrum nam possimus minus cumque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam officiis omnis, molestiae repellendus necessitatibus sit ipsum modi harum dolor deserunt eveniet natus porro at, incidunt, in animi numquam consequatur? </p>
-        </div>
-        <div class="noticias" >
-            <img src="img/noticia exemplo.jpg" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, rem ullam commodi quod consequatur laudantium dolores eum vitae placeat excepturi corrupti odit eveniet voluptates sint, nostrum nam possimus minus cumque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam officiis omnis, molestiae repellendus necessitatibus sit ipsum modi harum dolor deserunt eveniet natus porro at, incidunt, in animi numquam consequatur? </p>
-        </div>
+        <picture>
+            <source media="(max-width: 500px)" srcset="img/img-vantagens-mobile.png">
+            <img class="img-noticia" src="img/img-vantagens.png" alt="">
+        </picture>
     </div>
 </body>
 </html>
