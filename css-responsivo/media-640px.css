@@ -12,7 +12,10 @@
   }
   .caixa2{
     width: 90%;
-    margin-left: 10px;
+    
+  }
+  .vant-txt{
+    margin: 10px
   }
     footer{
         height: 1500px;
