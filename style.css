@@ -486,13 +486,14 @@ p{
 .conteudo{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .comosurgiu-txt{
     width: 580px;
     font-size: 28px;
-    margin-right: 10px;
+    margin-right: 50px;
     text-align: justify;
     font-family: 'Inter', sans-serif;
 }
