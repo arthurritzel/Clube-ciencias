@@ -21,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d962411a6f.js" crossorigin="anonymous"></script>    
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>  
   <!-- pagina inicial -->
@@ -374,26 +374,36 @@
   <footer>
     <div class="footercont">
       <div id="contato">
-          <form>
-            <p>INSCRIÇÕES ABERTAS!</p>
-              <label>NOME:</label>
-              <input type="text" class="campo-form" placeholder="Seu Nome">
-              <label>E-MAIL:</label>
-              <input type="email" class="campo-form" placeholder="exemplo@email.com">
-              <label>TELEFONE:</label>
-              <input type="text" class="campo-form" placeholder="(99)99999-9999">
-              <label>QUAL A IDADE DO ALUNO?</label>
-              <input type="text" class="campo-form" placeholder="Idade do aluno">
-              <label>Como chegou até nós?</label>
-              <select class="campo-form" name="recomendacao">
-                <option value="instagram">Instagram</option>
-                <option value="google">Google</option>
-                <option value="televisao">Televisão</option>
-                <option value="whatsapp">Whatsapp</option>
-                <option value="proximos">Pessoas proximas</option>
-              </select>
-              <button type="submit" class="botao-enviar" >Enviar</button>
-          </form>
+        <form>
+          <p>INSCRIÇÕES ABERTAS!</p>
+          
+            <div class="form-group">
+              <label for="exampleInputEmail1">NOME:</label>
+              <input type="nome" class="form-control" id="Inputnome" aria-describedby="Nome" placeholder="Seu Nome">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">E-MAIL:</label>
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="exemplo@email.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">TELEFONE:</label>
+              <input type="telefone" class="form-control" id="InputNumero" aria-describedby="Numero" placeholder="(99)99999-9999">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">IDADE DO ALUNO:</label>
+              <input type="idade" class="form-control" id="InputIdade" aria-describedby="Idade" placeholder="Idade do Aluno">
+            </div>
+            <label>Como chegou até nós?</label>
+            <select class="custom-select">
+              <option selected>...</option>
+              <option value="1">Instagram</option>
+              <option value="2">Televisão</option>
+              <option value="3">Pessoas próximas</option>
+              <option value="4">Google</option>
+              <option value="3">Facebook</option>
+            </select>
+            <button type="button" onclick="enviar()" class="botao-enviar">Enviar</button>
+        </form>
       </div>
 
       <span id="backtotop-btn">
@@ -473,9 +483,19 @@
         </div>
       </div>
     </div>
+    
   </footer>
 
   <!-- scripts -->
+  <script>
+    function enviar() {
+      Swal.fire(
+    'Bom trabalho!',
+    'Sua inscrição foi enviada!',
+    'success'
+  )
+  }
+  </script>
   <script src="https://kit.fontawesome.com/d962411a6f.js" crossorigin="anonymous"></script>  
   
   <script src="script/scrollbehavior.js"></script>
