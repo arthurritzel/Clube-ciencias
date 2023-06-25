@@ -569,6 +569,73 @@ footer{
     font-size: large;
 }
 
+
+.perguntas-frequentes{
+    background-color: #103973;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    margin-right: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    margin-bottom: 200px;
+}
+
+.perguntas-frequentes p{
+    font-size: large;
+}
+
+form{
+    margin: 10px;
+    height: 400px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+
+}
+
+.campo-form{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    align-items: left;
+}
+
+.botao-enviar{
+    align-self: center;
+    margin: 10px;
+    background-color: #FC6335;
+    color: #fff;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+
+}
+
+.frequente{
+    margin: 10px;
+    height: auto;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: center;
+}
+.campo-freq{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
 #backtotop-btn {
     visibility: hidden;
     position: fixed;
@@ -642,70 +709,4 @@ footer{
         transform: translateY(-1000px);
         opacity: 0;
     }
-}
-
-.perguntas-frequentes{
-    background-color: #103973;
-    width: 300px;
-    height: fit-content;
-    display: flex;
-    margin-right: 50px;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: 'Inter', sans-serif;
-    color: #fff;
-    margin-bottom: 200px;
-}
-
-.perguntas-frequentes p{
-    font-size: large;
-}
-
-form{
-    margin: 10px;
-    height: 400px;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    text-align: left;
-
-}
-
-.campo-form{
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    align-items: left;
-}
-
-.botao-enviar{
-    align-self: center;
-    margin: 10px;
-    background-color: #FC6335;
-    color: #fff;
-    border-radius: 20px;
-    height: 40px;
-    width: 100px;
-
-}
-
-.frequente{
-    margin: 10px;
-    height: auto;
-    width: 280px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    text-align: center;
-}
-.campo-freq{
-    width: 100%;
-    padding: 5px;
-    font-size: 18px;
-    border-radius: 5px;
 }
