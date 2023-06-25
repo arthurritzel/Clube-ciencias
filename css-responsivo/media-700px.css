@@ -3,9 +3,7 @@
     height: auto;
     justify-content: space-around;
     align-items: top; 
-
     }
-    
     
     #contato{
         width: 270px;
@@ -13,7 +11,6 @@
         display: flex;
         margin: 0;
         margin-bottom: 20px;
-        
     }
     
     #contato p{
@@ -25,7 +22,6 @@
         width: 300px;
         height: fit-content;
         margin: 0;
-        
     }
     
     .perguntas-frequentes p{
@@ -67,7 +63,4 @@
         width: fit-content;
 
     }
-   
-
-
 }

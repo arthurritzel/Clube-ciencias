@@ -1,4 +1,10 @@
 @media (max-width: 999px) {
+  .card-img{
+    margin-bottom: 10px;
+  }
+  .card-img-reverse{
+    margin-bottom: 10px;
+  }
   .vantagens h2{
     font-size: 42px;
   }
