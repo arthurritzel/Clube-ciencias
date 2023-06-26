@@ -19,4 +19,7 @@
   .vant-txt{
     margin: 10px;
   }
+  .rocket-txt{
+    display: none;
+}
 }
