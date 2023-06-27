@@ -658,7 +658,7 @@ form{
 }
 .rocket-txt{
     display: flex;
-    margin-left: -50px;
+    margin-left: -30px;
 }
 .slide-in-bottom {
     -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
