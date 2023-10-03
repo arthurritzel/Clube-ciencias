@@ -5,7 +5,7 @@ async function metodo(){
     }
     )
 var dadosJS = await dadosJS.json();
-
+dadosJS.
 
 
 
