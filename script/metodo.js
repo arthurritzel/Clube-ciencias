@@ -4,7 +4,7 @@ async function metodo(){
         method: "GET"
     }
     )
-var dados = await dados.json();
+var dadosJS = await dadosJS.json();
 
 
 
