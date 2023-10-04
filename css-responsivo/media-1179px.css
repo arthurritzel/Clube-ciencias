@@ -1,7 +1,8 @@
-@media (max-width: 1179px) and (min-width: 1000px){
+@media (max-width: 1300px) and (min-width: 1000px){
   .card-img{
     flex-direction: column;
     align-items: center;
+    
   }
   .card-img div{
     display: flex;
@@ -13,4 +14,10 @@
   .card-img-reverse div{
     display: flex;
   }
+
+  .card-img-none{
+    margin: 10px;
+  }
+
+
 }
