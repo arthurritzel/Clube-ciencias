@@ -452,11 +452,13 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color:#103973;
     padding-top: 50px;
     border-radius: 30px;
+
 }
 
 .desc-cl{
@@ -469,6 +471,7 @@ p{
     
     width: 80%;
     border-radius: 50px;
+    
 }
 
 .caixa_texto_vantagens{
@@ -486,8 +489,58 @@ p{
 
 .caixa_texto_vantagens p{
     padding: 30px;
+    width: 100%;
 }
-
+table{
+    
+   
+    width: 85%;
+    margin-bottom: 50px;
+    
+}
+.tabela td, th{
+    /* border: 1px solid rgb(135, 130, 130); */
+ 
+    padding: 10px;
+    margin: 0;
+    
+}
+.tabela_titulo{
+    font-size: 40px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+.bordas{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 30%;
+}
+.borda2{
+    border-bottom: 1px solid white;
+    font-size: 25px;
+}
+.bottom_table{
+    border-radius: 0px 0px 10px 0px;
+    font-size: 25px;
+}
+.bottom_table2{
+    border-radius: 0px 0px 0px 10px;
+    border-bottom: 0px;
+    
+}
+.dias{
+    background-color: rgb(200, 204, 208);
+    color: rgb(3, 50, 130);
+    
+}
+.turnos{
+    background-color: rgb(6, 55, 139); 
+    color: white;
+}
+.center_table{
+    text-align: center;
+}
 /* como surgiu */
 .conteudo{
     display: flex;
