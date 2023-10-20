@@ -81,12 +81,8 @@
       <p>O que é o clube</p>
     </div>
     <div class="sobre-conteudo">
-      <p>
-        O Clube de Ciências do Biopark é um ambiente seguro e estimulante
-        para que as crianças e adolescentes possam explorar o mundo da ciência 
-        de forma criativa e divertida. As atividades oferecidas pelo Clube de Ciências são cuidadosamente planejadas para despertar a curiosidade e o interesse dos participantes. Através de experimentos práticos, projetos interativos e desafios estimulantes, as crianças e adolescentes têm a oportunidade de mergulhar em diferentes áreas científicas, como biologia, química, robotica e programação.
-      </p>
-      <picture>
+      <!-- texto via JS -->
+      <picture class="imgs_oque">
         <source media="(max-width: 765px)" srcset="img/oqe-mobile.png">
         <img class="img-cont" src="img/oqe.svg" alt="simbolos da ciencia">
       </picture>
@@ -156,13 +152,7 @@
     </div>
     
     <div class="conteudo">
-      <p class="comosurgiu-txt">
-        O Clube de Ciências é um projeto que nasceu em 2018, inspirado na energia de inovação do Parque Científico e Tecnológico de Biociências (Biopark). Inicialmente, foi criado para suprir uma demanda: unir conhecimento científico com diversão. Destinado a crianças e adolescentes, o Clube de Ciências funciona em contraturno escolar e prioriza valorizar a curiosidade, despertar o amor pela ciência e, consequentemente, produzir ciência.
-      </p>
-      <picture>
-        <source media="(max-width: 500px)" srcset="img/comosurgiu-mobile.jpg">
-        <img class="comosurgiu-img" src="img/comosurgiu.jpg" alt="parede com logo do clube"> 
-      </picture>   
+     <!-- js dinamico como_surgiu.js -->
     </div>
   </section>
 
@@ -245,9 +235,11 @@
 
   <script src="script/mobile.js"></script>
 
+  <script fetchpriority="high" src="script/oque.js"></script>
   <script fetchpriority="high" src="script/vantagens.js"></script>
   <script fetchpriority="high" src="script/laboratorios.js"></script>
   <script fetchpriority="high" src="script/clubes.js"></script>
+  <script fetchpriority="low" src="script/como_surgiu.js"></script>
   <script fetchpriority="low" src="script/equipe.js"></script>
   <script fetchpriority="low" src="script/duvidas.js"></script>
 </body>

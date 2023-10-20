@@ -12,7 +12,7 @@ async function equipe(){
         profs.className = "profs"
 
         var img = document.createElement("img")
-        img.setAttribute("src", element.imagem)
+        img.setAttribute("src", `${element.imagem}?h150w150`)
 
         var nome = document.createElement("div")
         nome.id = "nome"

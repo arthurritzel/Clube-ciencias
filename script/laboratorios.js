@@ -44,9 +44,9 @@ dadosJS.result.forEach(element =>{
 
     div_p1.innerText = element.titulo;
     div_p2.innerText = element.descricao;
-    img1.setAttribute("src",element.imagem1);
-    img2.setAttribute("src",element.imagem2);
-    img3.setAttribute("src",element.imagem3);
+    img1.setAttribute("src", `${element.imagem1}?h320w500`);
+    img2.setAttribute("src", `${element.imagem2}?h150w200`);
+    img3.setAttribute("src", `${element.imagem3}?h150w200`);
 
 
     var cards = document.querySelector(".cards");

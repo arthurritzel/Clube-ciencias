@@ -31,18 +31,48 @@ async function pre_clube(){
         var tabela = document.createElement("table")
         tabela.className = "tabela"
 
-        tabela.innerHTML = `
-        <tr style="background-color: #FC6335" >
-            <th  colspan="2" class="tabela_titulo">${element.faixaIdade.min}-${element.faixaIdade.max} Anos</th>
-        </tr>
-        <tr class="turnos">
-            <td class="bordas center_table">Turno manha</td>
-            <td class="borda2">${element.horarios.turnoManha.min} as ${element.horarios.turnoManha.max}</td>
-        </tr>
-        <tr class="turnos">
-            <td class="bordas center_table">Turno tarde</td>
-            <td class="borda2">${element.horarios.turnoTarde.min} as ${element.horarios.turnoTarde.min}</td>
-        </tr>`
+        var tr_titulo = document.createElement("tr")
+        tr_titulo.style.backgroundColor = "#FC6335"
+
+        var th_titulo = document.createElement("th");
+        th_titulo.setAttribute("colspan", "2");
+        th_titulo.className = "tabela_titulo"
+        th_titulo.innerText = `${element.faixaIdade.min}-${element.faixaIdade.max} Anos`
+
+        tr_titulo.appendChild(th_titulo);
+
+        var tr_turnoM = document.createElement("tr")
+        tr_turnoM.className = "turnos"
+
+        var td_turnoM1 = document.createElement("td")
+        td_turnoM1.setAttribute("class", "bordas center_table")
+        td_turnoM1.innerText = "Turno manha"
+
+        var td_turnoM2 = document.createElement("td")
+        td_turnoM2.setAttribute("class", "borda2")
+        td_turnoM2.innerText = `${element.horarios.turnoManha.min} as ${element.horarios.turnoManha.max}`
+
+        tr_turnoM.appendChild(td_turnoM1)
+        tr_turnoM.appendChild(td_turnoM2)
+
+        var tr_turnoT = document.createElement("tr")
+        tr_turnoT.className = "turnos"
+
+        var td_turnoT1 = document.createElement("td")
+        td_turnoT1.setAttribute("class", "bordas center_table")
+        td_turnoT1.innerText = "Turno manha"
+
+        var td_turnoT2 = document.createElement("td")
+        td_turnoT2.setAttribute("class", "borda2")
+        td_turnoT2.innerText = `${element.horarios.turnoTarde.min} as ${element.horarios.turnoTarde.min}`
+
+        tr_turnoT.appendChild(td_turnoT1)
+        tr_turnoT.appendChild(td_turnoT2)
+
+        tabela.appendChild(tr_titulo)
+        tabela.appendChild(tr_turnoM)
+        tabela.appendChild(tr_turnoM)
+
 
         let cont = 1;
         element.horarios.dia_semana.forEach(element2 => {
