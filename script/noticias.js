@@ -28,7 +28,7 @@ async function noticias(){
         subtitulo.innerText = element.subtitulo;
         descricao.innerText = element.conteudo;
         data.innerText = element.data;
-        img.setAttribute("src", element.imagem);
+        img.setAttribute("src", `${element.imagem}?h=700&w=700`);
 
 
         div_txt.appendChild(titulo)

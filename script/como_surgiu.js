@@ -13,7 +13,7 @@ async function como_surgiu(){
 
     var img = document.createElement("img")
     img.className = "comosurgiu-img"
-    img.setAttribute("src", `${dadosJS.result[0].imagem}?w500h600`)
+    img.setAttribute("src", `${dadosJS.result[0].imagem}?w=500&h=600`)
 
     var conteudo = document.querySelector(".conteudo")
     conteudo.appendChild(p)

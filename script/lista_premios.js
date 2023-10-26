@@ -16,7 +16,7 @@ async function lista_premios(){
         var paragrafo = document.createElement("p")
 
         var imagem = document.createElement("img")
-        imagem.setAttribute("src",element.imagem)
+        imagem.setAttribute("src", `${element.imagem}?h=210&w=300`)
 
         var div_premios = document.querySelector(".div-premios")
         

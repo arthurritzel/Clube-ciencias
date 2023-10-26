@@ -13,7 +13,7 @@ async function pre_clube(){
         caixa_maior_baixo.className = 'caixa_maior_baixo'
 
         var img = document.createElement("img")
-        img.setAttribute("src", element.imagem)
+        img.setAttribute("src", `${element.imagem}?h=290&w=500`)
 
         var caixa_texto_vantagens = document.createElement("div")
         caixa_texto_vantagens.className = "caixa_texto_vantagens"
