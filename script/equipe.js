@@ -36,11 +36,3 @@ async function equipe(){
 }
 
 equipe();
-
-{/* <div class = "profs">
-        <img src="avatar/8.png" alt="">
-        <div id = nome>
-          <h3>Cirlei Rossi </h3>
-          <p>Diretora Clube de ciências</p>
-        </div>
-</div> */}

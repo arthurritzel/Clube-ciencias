@@ -8,8 +8,8 @@ async function laboratorios(){
 
     var count = 0;
 
-var dadosJS = await dados.json()
-dadosJS.result.forEach(element =>{
+    var dadosJS = await dados.json()
+    dadosJS.result.forEach(element =>{
 
     var div_card = document.createElement("div");
     var div_card_img = document.createElement("div");
@@ -75,28 +75,3 @@ dadosJS.result.forEach(element =>{
 }
 
 laboratorios();
-/*<section id="laboratorios">
-    <div class="divisoria-laranja" class="row align-items-center">
-      <p>Laboratórios</p>
-    </div>
-    <div class="cards">
-      <div class="card">
-                        <div class="txt">
-                        <p class="lab">Pré-Clube</p>
-                        <p class="desc-lab">Desenvolvido para crianças de 4
-                            a 8 anos, o programa é voltado
-                            para explorar o universo junto
-                            com a crianças por meio de conteúdos didáticos e lúdicos. Por meio de histórias, teatro, músicas, jogos e brincadeiras os pequenos aprendem sobre ciência e tecnologia.</p>
-                        </div>
-
-            <div class="card-img">
-                    <img src="img-preclube/img2.png" alt="">
-                    <div class="card-img-none">
-                        <img src="img-preclube/img1.png" alt="">
-                        <img src="img-preclube/img3.png" alt="">
-                    </div>
-            </div>
-      </div>
-    </div>
-  </section>
- */
