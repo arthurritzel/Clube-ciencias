@@ -54,7 +54,7 @@ h1{
     background-color: white;
     border-radius: 20px;
     border: 0px;
-    
+    overflow: scroll;
     box-shadow: 5px 5px 5px black;
 }
 .premios:hover{
@@ -73,6 +73,7 @@ h1{
     font-family: inter;
     font-size: 15px;
     padding: 10px;
+    
 }
 .premios > h3{
     font-family: inter;
